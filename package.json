@@ -1,0 +1,23 @@
+{
+  "name": "alfred-text-case",
+  "version": "1.0.0",
+  "description": "Toggle text case in alfred workflow",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "keywords": [
+    "alfred",
+    "text-case",
+    "camel",
+    "snake",
+    "case"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alfy": "^0.10.0",
+    "clipboardy": "^2.3.0"
+  }
+}
